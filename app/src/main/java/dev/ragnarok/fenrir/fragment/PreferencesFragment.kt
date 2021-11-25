@@ -559,8 +559,6 @@ class PreferencesFragment : PreferenceFragmentCompat() {
                 }
                 MaterialAlertDialogBuilder(requireActivity())
                     .setView(view)
-                    .setOnDismissListener {
-                    }
                     .show()
                 true
             }
